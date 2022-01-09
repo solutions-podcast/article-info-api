@@ -1,0 +1,31 @@
+{
+  "name": "article-info-api",
+  "version": "1.0.0",
+  "description": "An API for getting information about article webpages.",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solutions-podcast/article-info-api.git"
+  },
+  "author": "Elias Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solutions-podcast/article-info-api/issues"
+  },
+  "homepage": "https://github.com/solutions-podcast/article-info-api#readme",
+  "dependencies": {
+    "metascraper": "^5.25.7",
+    "metascraper-author": "^5.25.7",
+    "metascraper-date": "^5.25.7",
+    "metascraper-description": "^5.25.7",
+    "metascraper-image": "^5.25.7",
+    "metascraper-logo": "^5.25.7",
+    "metascraper-publisher": "^5.25.7",
+    "metascraper-title": "^5.25.7",
+    "metascraper-url": "^5.25.7",
+    "node-fetch": "^2.6.6"
+  }
+}
